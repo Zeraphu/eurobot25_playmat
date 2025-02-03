@@ -8,7 +8,7 @@ This repository contains a Gazebo simulation of the playmat for Eurobot 2025. It
    
 ## 1. Install Gazebo
 To use this project, you need to install Gazebo11. Follow the official installation guide based on your operating system:
-- **Gazebo Classic (Gazebo 11)**: [Installation Guide](http://gazebosim.org/tutorials?tut=install)
+- **Gazebo Classic (Gazebo 11)**: [Installation Guide](https://classic.gazebosim.org/tutorials?cat=install)
 
 ## 2. Setting Up the Model Path
 Gazebo needs to know where to find the models in this repository. There are two ways to set it up:
@@ -29,11 +29,7 @@ source ~/.bashrc
 > Replace `$(pwd)/models` with the absolute path to the `models/` directory if needed.
 
 ## 3. Running the World in Gazebo
-Once the models are properly set up, launch the Gazebo world with:
+Once the models are properly set up, `cd` to the repo root and launch the Gazebo world with:
 ```bash
-gazebo worlds/my_world.world
+gazebo worlds/playmat.world
 ```
-
-If using ROS with Gazebo, run:
-...
-

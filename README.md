@@ -6,9 +6,13 @@ This repository contains a Gazebo simulation of the playmat for Eurobot 2025. It
 1. The current world is tested ONLY on Gazebo11 Classic. I'll be adding support for newer versions if required.
 2. The columns and platforms are currently static (you can't move/pick them up!). I'll be adding physics/collisions to it soon.
 
-![alt text](images/playmat_01.png)
-![alt text](images/platform_.png)
-![alt text](images/column_.png)
+Playmat'25 model            |
+:-------------------------:|
+![](images/playmat_01.png) 
+
+Platform model             | Column model
+:-------------------------:|:-------------------------:
+![](images/platform_.png)  |  ![](images/column_.png)
 
 ## 1. Install Gazebo
 To use this project, you need to install Gazebo11. Follow the official installation guide based on your operating system:
